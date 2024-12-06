@@ -1,0 +1,22 @@
+uuid: 7fd9b9e1-cb93-4f17-95ff-8bd8710a54f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - transport_canada
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: transport_canada_help
+theme: transport_canada
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 61868ee8-01cc-438a-b94c-6435fac54673
+langcode: en
+status: true
+dependencies:
+  theme:
+    - transport_canada
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: transport_canada_secondary_local_tasks
+theme: transport_canada
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
